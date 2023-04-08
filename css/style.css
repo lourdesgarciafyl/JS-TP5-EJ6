@@ -1,0 +1,9 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: chocolate;
+}
+main{
+    flex-grow: 1;
+}
