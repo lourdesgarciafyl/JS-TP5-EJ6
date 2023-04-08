@@ -2,7 +2,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: chocolate;
+    background-color: black;
 }
 main{
     flex-grow: 1;

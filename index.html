@@ -19,7 +19,35 @@
 
     </header>
     <main>
-        <h1 class="text-center text-black">Temporizador</h1>
+        <h1 class=" container text-center text-light">Temporizador</h1>
+        <section class="container my-2">
+            <div class="my-3 d-flex justify-content-center">
+                <form>
+                    <label class="form-label text-light fs-6 ms-1" for="tiempo">Ingresa el tiempo en minutos</label>
+                    <input
+                    class="form-control text-black me-2"
+                    type="text"
+                    id="tiempo"
+                    placeholder="Ejemplo: ordenar la habitación"
+                    minlength="1"
+                    maxlength="2"
+                    required
+                  />
+                  <div class="text-center my-3">
+                    <button class="btn btn-success" type="submit">
+                        Comenzar!
+                      </button>
+                  </div>
+                  </form>
+            </div>
+        </form>
+        </section>
+        <section class="container">
+            <div class="text-center">
+                <button class="me-2 btn btn-danger">Reiniciar</button>
+                <button class="ms-2 btn btn-warning">Pausar</button>
+            </div>
+        </section>
     </main>
     <footer>
 
