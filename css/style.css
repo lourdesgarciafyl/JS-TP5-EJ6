@@ -29,9 +29,9 @@ p{
 }
 @media (max-width: 575.98px) { 
     h1, p{
-      font-size: 20px;
+      font-size: 25px;
     }
-    i{
-        font-size: x-small;
+    button{
+        font-size: xx-small;
     }
   }
