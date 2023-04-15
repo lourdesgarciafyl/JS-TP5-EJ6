@@ -31,5 +31,7 @@ p{
     h1, p{
       font-size: 20px;
     }
-  
+    i{
+        font-size: x-small;
+    }
   }

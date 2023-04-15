@@ -16,13 +16,13 @@
     <title>Trabajo practico 5 Ejercicio 6 JS</title>
 </head>
 <body>
-    <main>
+    <main>    
         <section class="container">
             <h1 class="text-center mt-5">Temporizador</h1>
             <hr>
         </section>
         <section class="container">
-            <article id="contenedorTemporizador" class="d-flex flex-column">
+            <article id="contenedorTemporizador" class="container d-flex flex-column">
                 <div class="my-3 d-flex justify-content-center">
                     <form class="d-flex flex-column rounded-4">
                         <label class="form-label fs-6 ms-1" for="tiempo">Ingresa el tiempo en minutos</label>
@@ -31,9 +31,9 @@
                         class="form-control text-black me-2"
                         type="text"
                         id="tiempo"
-                        placeholder= 3
-                        min="1"
-                        max="2"
+                        placeholder= 60
+                        min=1
+                        max=60
                         required
                       />
                     <button class="btn btn-success" id="btnPlay" type="submit"><i class="bi bi-play fs-2"></i></button>
