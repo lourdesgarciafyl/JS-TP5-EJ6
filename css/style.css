@@ -1,9 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;700&family=Inconsolata&family=Orbitron:wght@400;500&display=swap');
 body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: rgb(214, 255, 137);
 }
 main{
     flex-grow: 1;
 }
+
+h1, p, label{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 60px;
+}
+h1{
+    color: black;
+}
+p{
+    text-shadow: 0 0 5px rgb(243, 143, 67),
+    0 0 10px rgb(243, 143, 67),
+    0 0 15px rgb(243, 143, 67),
+    0 0 20px rgb(243, 143, 67),
+    0 0 30px rgb(243, 143, 67),
+    0 0 50px rgb(243, 143, 67),
+    0 0 70px rgb(243, 143, 67),
+    0 0 90px rgb(243, 143, 67),
+    0 0 100px rgb(243, 143, 67);
+}
+@media (max-width: 575.98px) { 
+    h1, p{
+      font-size: 25px;
+    }
+    button{
+        font-size: xx-small;
+    }
+  }
